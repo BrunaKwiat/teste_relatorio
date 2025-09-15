@@ -198,21 +198,7 @@
             <div class="table-actions">
               <button type="button" id="addEnsaio" class="btn" data-add-row="ensaios">➕ Adicionar linha</button>
             </div>
-          </fieldset>
-
-          <!-- FOTOS -->
-          <fieldset>
-            <legend>Anexar Fotos</legend>
-            
-            <div class="upload-area" id="uploadArea">
-              <p>Arraste e solte suas fotos aqui ou</p>
-              <input type="file" id="fileInput" class="file-input" accept="image/*" multiple>
-              <label for="fileInput" class="upload-btn">Selecionar Fotos</label>
-              <p class="note">Formatos suportados: JPG, PNG, GIF. Tamanho máximo: 5MB por imagem.</p>
-            </div>
-            
-            <div class="image-preview" id="imagePreview"></div>
-          </fieldset>
+          </fieldset>        
 
           <!-- OBSERVAÇÃO + NBR -->
           <fieldset>
@@ -227,6 +213,20 @@
               <label><input type="checkbox" name="nbr[]" value="5648"> 5648</label>
               <label><input type="checkbox" name="nbr[]" value="na"> N/A — Não aplicável</label>
             </div>
+          </fieldset>
+
+           <!-- FOTOS -->
+          <fieldset>
+            <legend>Anexar Fotos</legend>
+            
+            <div class="upload-area" id="uploadArea">
+              <p>Arraste e solte suas fotos aqui ou</p>
+              <input type="file" id="fileInput" class="file-input" accept="image/*" multiple>
+              <label for="fileInput" class="upload-btn">Selecionar Fotos</label>
+              <p class="note">Formatos suportados: JPG, PNG, GIF. Tamanho máximo: 5MB por imagem.</p>
+            </div>
+            
+            <div class="image-preview" id="imagePreview"></div>
           </fieldset>
 
         </form>
